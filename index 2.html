@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psalm 23 Woman | Garden Living</title>
+<meta name="description" content="A space for women rooted in faith — wherever you lead, wherever you live, wherever you belong. Garden Living theology at psalm23woman.com.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ===== RESET & ROOT ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --sage:        #2D5A3D;
+  --sage-mid:    #4A7C5F;
+  --sage-soft:   #6B9E82;
+  --mint:        #C8E6D4;
+  --mint-light:  #E4F3EB;
+  --mint-pale:   #F2FAF5;
+  --gold:        #C9A84C;
+  --gold-light:  #E0C46E;
+  --gold-pale:   #FBF6E8;
+  --mauve:       #8B5E72;
+  --mauve-light: #C49BAA;
+  --mauve-pale:  #F7F0F3;
+  --cream:       #FAF9F6;
+  --linen:       #F3EFE8;
+  --charcoal:    #1A2E24;
+  --mid:         #4A5F52;
+  --soft:        #8AAA95;
+  --white:       #FFFFFF;
+  --ff-serif:    'Cormorant Garamond', Georgia, serif;
+  --ff-sans:     'Jost', 'Helvetica Neue', Arial, sans-serif;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--cream);
+  color: var(--charcoal);
+  font-family: var(--ff-sans);
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+
+/* ===== UTILITY ===== */
+.eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.serif { font-family: var(--ff-serif); }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 2rem; }
+
+/* ===== NAV ===== */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--sage);
+  border-bottom: 2px solid var(--gold);
+}
+.nav-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.crown-svg { width: 24px; height: 20px; fill: var(--gold); flex-shrink: 0; }
+.brand-text { line-height: 1.2; }
+.brand-name {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 0.02em;
+}
+.brand-sub {
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--mint);
+  font-weight: 400;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.nav-links a {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.72);
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--gold-light); }
+.nav-cta {
+  background: var(--gold) !important;
+  color: var(--sage) !important;
+  padding: 8px 18px;
+  border-radius: 2px;
+  font-weight: 600 !important;
+  font-size: 10px !important;
+  letter-spacing: 0.16em !important;
+}
+.nav-cta:hover { background: var(--gold-light) !important; }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 4px;
+  background: none;
+  border: none;
+}
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: white;
+  transition: all 0.25s;
+}
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: var(--charcoal);
+  padding: 1rem 2rem 1.5rem;
+}
+.mobile-menu a {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.75);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+.mobile-menu.open { display: flex; }
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(150deg, var(--mint-light) 0%, var(--mint-pale) 55%, #fff 100%);
+  padding: 6rem 2rem 5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 15% 80%, rgba(45,90,61,0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 85% 20%, rgba(201,168,76,0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--sage-mid);
+  margin-bottom: 1.25rem;
+}
+.hero-eyebrow::before, .hero-eyebrow::after {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--sage-soft);
+}
+.hero h1 {
+  font-family: var(--ff-serif);
+  font-size: clamp(56px, 9vw, 96px);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--sage);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+.hero h1 em {
+  font-style: italic;
+  color: var(--charcoal);
+}
+.hero-sub {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--mid);
+  max-width: 480px;
+  margin: 0 auto 2rem;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+}
+.hero-verse {
+  display: inline-block;
+  background: var(--sage);
+  color: var(--mint);
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  padding: 12px 28px;
+  border-radius: 1px;
+  margin-bottom: 2.5rem;
+}
+.hero-taglines {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.hero-taglines span {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sage-soft);
+}
+.hero-taglines span::before { content: '· '; }
+
+/* ===== THEOLOGY STRIP ===== */
+.theology {
+  background: var(--sage);
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.theology .eyebrow { color: var(--mint); margin-bottom: 0.6rem; }
+.theology blockquote {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(22px, 3vw, 30px);
+  color: rgba(255,255,255,0.92);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.theology blockquote strong {
+  font-style: normal;
+  color: var(--gold-light);
+  font-weight: 400;
+}
+
+/* ===== LANES / PILLARS ===== */
+.lanes { padding: 5rem 0; background: var(--linen); }
+.section-header { text-align: center; margin-bottom: 3rem; }
+.section-header .eyebrow { color: var(--soft); margin-bottom: 0.5rem; }
+.section-header h2 {
+  font-family: var(--ff-serif);
+  font-size: clamp(32px, 5vw, 48px);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--charcoal);
+}
+.lanes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.lane-card {
+  background: white;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.lane-card:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.09); }
+.lane-top {
+  padding: 1.75rem 1.5rem 1.25rem;
+  border-bottom: 3px solid;
+}
+.lane-1 .lane-top { background: var(--mint-light); border-color: var(--sage-mid); }
+.lane-2 .lane-top { background: var(--gold-pale); border-color: var(--gold); }
+.lane-3 .lane-top { background: var(--mauve-pale); border-color: var(--mauve); }
+.lane-badge {
+  display: inline-block;
+  font-size: 8.5px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+.lane-1 .lane-badge { background: var(--mint); color: var(--sage); }
+.lane-2 .lane-badge { background: #EDD99A; color: #6A4800; }
+.lane-3 .lane-badge { background: #DCBDCA; color: var(--mauve); }
+.lane-name {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 32px;
+  color: var(--charcoal);
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+.lane-ref { font-size: 10px; color: var(--soft); letter-spacing: 0.06em; }
+.lane-body { padding: 1.5rem; }
+.lane-desc {
+  font-size: 16px;
+  color: var(--mid);
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+.lane-for {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--soft);
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+.lane-link {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid;
+  padding-bottom: 2px;
+  transition: opacity 0.2s;
+}
+.lane-link:hover { opacity: 0.65; }
+.lane-1 .lane-link { color: var(--sage); border-color: var(--sage); }
+.lane-2 .lane-link { color: #6A4800; border-color: #6A4800; }
+.lane-3 .lane-link { color: var(--mauve); border-color: var(--mauve); }
+
+/* ===== CONTENT MODEL ===== */
+.content-model {
+  padding: 4rem 0;
+  background: var(--mint-pale);
+  border-top: 1px solid rgba(45,90,61,0.1);
+  border-bottom: 1px solid rgba(45,90,61,0.1);
+}
+.model-inner { max-width: 720px; margin: 0 auto; text-align: center; padding: 0 2rem; }
+.model-inner .eyebrow { color: var(--sage-soft); margin-bottom: 0.5rem; }
+.model-inner > p {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 22px;
+  color: var(--sage);
+  margin-bottom: 2rem;
+}
+.tri-row {
+  display: grid;
+  grid-template-columns: 1fr 24px 1fr 24px 1fr;
+  gap: 0;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.tri-card {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 2px;
+  padding: 1.1rem 0.85rem;
+}
+.tri-card .eyebrow { margin-bottom: 0.35rem; }
+.t1 .eyebrow { color: var(--sage-mid); }
+.t2 .eyebrow { color: #6A4800; }
+.t3 .eyebrow { color: var(--mauve); }
+.tri-card-name {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--charcoal);
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+.tri-card-sub { font-size: 11px; color: var(--soft); }
+.tri-arrow { color: var(--soft); font-size: 16px; text-align: center; }
+.model-note {
+  background: var(--sage);
+  color: var(--mint);
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 14px;
+  padding: 0.85rem 1.25rem;
+  border-radius: 2px;
+  letter-spacing: 0.01em;
+}
+
+/* ===== FEATURED POSTS ===== */
+.featured { padding: 5rem 0; background: var(--cream); }
+.featured-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+.featured-header .eyebrow { color: var(--soft); }
+.featured-header a {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sage-mid);
+  border-bottom: 1px solid var(--sage-soft);
+  padding-bottom: 2px;
+}
+.posts-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2.5rem;
+}
+.lead-post {
+  border-left: 4px solid var(--sage-mid);
+  padding-left: 1.75rem;
+}
+.post-lane-tag { font-size: 9px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.6rem; }
+.l-sage { color: var(--sage-mid); }
+.l-gold { color: #6A4800; }
+.l-mauve { color: var(--mauve); }
+.lead-post h3 {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(26px, 3.5vw, 36px);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--charcoal);
+  margin-bottom: 1rem;
+}
+.lead-post p {
+  font-size: 17px;
+  color: var(--mid);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+.post-meta { font-size: 11px; color: var(--soft); letter-spacing: 0.04em; }
+.post-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sage);
+  border-bottom: 1.5px solid var(--sage);
+  padding-bottom: 2px;
+}
+.side-stack { display: flex; flex-direction: column; gap: 1.5rem; }
+.mini-post {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.mini-post:last-child { border-bottom: none; padding-bottom: 0; }
+.mini-post h4 {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--charcoal);
+  line-height: 1.4;
+  margin-bottom: 0.35rem;
+}
+.mini-post .post-meta { font-size: 11px; }
+
+/* ===== A TABLE PREPARED ===== */
+.atp {
+  background: var(--sage);
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.atp::before {
+  content: '';
+  position: absolute;
+  top: -60px; right: -60px;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: rgba(201,168,76,0.07);
+  pointer-events: none;
+}
+.atp-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+.atp .eyebrow { color: var(--mint); margin-bottom: 0.75rem; }
+.atp h2 {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 400;
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+.atp-verse {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(200,230,212,0.8);
+  border-left: 2px solid var(--gold);
+  padding-left: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+.atp-desc {
+  font-size: 17px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.85;
+  margin-bottom: 2rem;
+}
+.atp-cta {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--sage);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+.atp-cta:hover { background: var(--gold-light); }
+.atp-cards { display: flex; flex-direction: column; gap: 0.85rem; }
+.atp-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(200,230,212,0.18);
+  border-radius: 3px;
+  padding: 1.1rem 1.25rem;
+  transition: background 0.2s;
+}
+.atp-card:hover { background: rgba(255,255,255,0.11); }
+.atp-card-tag {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.35rem;
+}
+.atp-card p {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.45;
+}
+
+/* ===== DEVOTIONAL ===== */
+.devotional {
+  background: var(--mint-light);
+  border-top: 3px solid var(--sage-soft);
+  padding: 3.5rem 0;
+}
+.dev-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+.dev-label { color: var(--sage-mid); margin-bottom: 0.4rem; }
+.dev-title {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 36px;
+  color: var(--sage);
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+.dev-ref { font-size: 11px; color: var(--soft); letter-spacing: 0.06em; }
+.dev-quote {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--charcoal);
+  line-height: 1.8;
+  border-left: 3px solid var(--sage-mid);
+  padding-left: 1.25rem;
+}
+.dev-action { text-align: right; }
+.dev-btn {
+  display: inline-block;
+  border: 1.5px solid var(--sage);
+  color: var(--sage);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+.dev-btn:hover { background: var(--sage); color: white; }
+
+/* ===== COMMUNITY ===== */
+.community {
+  background: white;
+  padding: 5rem 0;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+.community .eyebrow { color: var(--soft); margin-bottom: 0.5rem; }
+.community h2 {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(30px, 4.5vw, 44px);
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-bottom: 0.6rem;
+}
+.community-sub {
+  font-size: 18px;
+  color: var(--mid);
+  max-width: 460px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.85;
+}
+.init-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+.init-card {
+  background: var(--linen);
+  border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 3px;
+  padding: 1.5rem 1rem;
+  transition: background 0.2s, transform 0.2s;
+  cursor: default;
+}
+.init-card:hover { background: var(--mint-light); transform: translateY(-2px); }
+.init-icon { font-size: 22px; margin-bottom: 0.5rem; }
+.init-label { font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mid); line-height: 1.4; }
+
+/* EMAIL SIGNUP */
+.email-form { display: flex; gap: 0; max-width: 420px; margin: 0 auto; border: 1.5px solid var(--sage-mid); border-radius: 2px; overflow: hidden; }
+.email-form input {
+  flex: 1;
+  padding: 12px 16px;
+  font-family: var(--ff-sans);
+  font-size: 13px;
+  color: var(--charcoal);
+  background: white;
+  border: none;
+  outline: none;
+}
+.email-form input::placeholder { color: var(--soft); }
+.email-form button {
+  background: var(--sage);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-family: var(--ff-sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.email-form button:hover { background: var(--sage-mid); }
+
+/* ===== ABOUT STRIP ===== */
+.about-strip {
+  background: var(--linen);
+  padding: 4rem 0;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: center;
+}
+.about-photo-placeholder {
+  aspect-ratio: 4/5;
+  background: var(--mint-light);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(45,90,61,0.12);
+  position: relative;
+  overflow: hidden;
+}
+.about-photo-placeholder::before {
+  content: '♛';
+  font-size: 60px;
+  color: rgba(45,90,61,0.15);
+}
+.about-photo-label {
+  position: absolute;
+  bottom: 12px;
+  left: 0; right: 0;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sage-soft);
+}
+.about-text .eyebrow { color: var(--sage-soft); margin-bottom: 0.5rem; }
+.about-text h2 {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+.about-text p {
+  font-size: 17px;
+  color: var(--mid);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+.about-link {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--sage);
+  border-bottom: 1.5px solid var(--sage);
+  padding-bottom: 2px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: var(--charcoal);
+  border-top: 2px solid var(--gold);
+}
+.footer-main {
+  padding: 3rem 0 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+}
+.footer-brand { }
+.footer-brand-name {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--mint);
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-brand-name svg { width: 18px; height: 15px; fill: var(--gold); }
+.footer-brand-sub { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--soft); margin-bottom: 1rem; }
+.footer-brand-desc { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.75; }
+.footer-col h4 {
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mint);
+  margin-bottom: 1rem;
+}
+.footer-col a {
+  display: block;
+  font-size: 13px;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: var(--gold-light); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.07);
+  padding: 1.25rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom p { font-size: 11px; color: rgba(255,255,255,0.3); letter-spacing: 0.04em; }
+.footer-verse {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 12px;
+  color: rgba(255,255,255,0.3);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero h1, .hero-sub, .hero-verse, .hero-taglines {
+  animation: fadeUp 0.7s ease both;
+}
+.hero h1         { animation-delay: 0.1s; }
+.hero-sub        { animation-delay: 0.22s; }
+.hero-verse      { animation-delay: 0.34s; }
+.hero-taglines   { animation-delay: 0.46s; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 820px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .lanes-grid { grid-template-columns: 1fr; }
+  .posts-grid { grid-template-columns: 1fr; }
+  .atp-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .dev-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+  .dev-action { text-align: left; }
+  .about-inner { grid-template-columns: 1fr; }
+  .about-photo-placeholder { max-height: 260px; }
+  .footer-main { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .init-grid { grid-template-columns: repeat(2, 1fr); }
+  .tri-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  .tri-arrow { display: none; }
+  .hero-taglines { gap: 1rem; }
+}
+@media (max-width: 500px) {
+  .hero { padding: 4rem 1.5rem 3.5rem; }
+  .container { padding: 0 1.25rem; }
+  .footer-main { grid-template-columns: 1fr; }
+  .init-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">
+      <svg class="crown-svg" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 17L4 8L8.5 13L12 4L15.5 13L20 8L22 17H2Z"/>
+        <rect x="2" y="17.5" width="20" height="2" rx="1"/>
+      </svg>
+      <div class="brand-text">
+        <div class="brand-name">Psalm 23 Woman</div>
+        <div class="brand-sub">Garden Living</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="#shepherds-table">The Shepherd's Table</a>
+      <a href="#still-waters">Still Waters</a>
+      <a href="#table-prepared">A Table Prepared</a>
+      <a href="#devotional">Devotionals</a>
+      <a href="#about">About</a>
+      <a href="#community" class="nav-cta">Join</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#shepherds-table" onclick="toggleMenu()">The Shepherd's Table</a>
+    <a href="#still-waters" onclick="toggleMenu()">Still Waters</a>
+    <a href="#table-prepared" onclick="toggleMenu()">A Table Prepared</a>
+    <a href="#devotional" onclick="toggleMenu()">Devotionals</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#community" onclick="toggleMenu()" style="color:var(--gold-light)">Join the Community</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow eyebrow">Faith · Purpose · Plan</div>
+  <h1>You were made<br><em>for the garden.</em></h1>
+  <p class="hero-sub">A space for women rooted in faith — wherever you lead, wherever you live, wherever you belong.</p>
+  <div class="hero-verse">"He maketh me to lie down in green pastures." — Psalm 23:2</div>
+  <div class="hero-taglines">
+    <span>Pray Plan Trust Repeat</span>
+    <span>Purpose Over Pressure</span>
+    <span>She Trusts the Lord</span>
+    <span>God's Plan &gt; My Plan</span>
+  </div>
+</section>
+
+<!-- THEOLOGY -->
+<div class="theology">
+  <div class="eyebrow" style="margin-bottom:0.5rem">The Heart of This Space · Garden Living Theology</div>
+  <blockquote>Garden Living is the theology of <strong>return</strong> — back to where God always intended us to dwell. Whole, known, and <strong>free.</strong></blockquote>
+</div>
+
+<!-- LANES -->
+<section class="lanes">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">Find your lane</div>
+      <h2>Three voices. One table. All welcome.</h2>
+    </div>
+    <div class="lanes-grid">
+      <!-- Lane 1 -->
+      <div class="lane-card lane-1" id="shepherds-table">
+        <div class="lane-top">
+          <div class="lane-badge">For Women in Ministry</div>
+          <div class="lane-name">The Shepherd's<br>Table</div>
+          <div class="lane-ref">Psalm 23:5 · "thou preparest a table"</div>
+        </div>
+        <div class="lane-body">
+          <p class="lane-desc">Raw, honest writing for women who lead. The wins, the losses, the loneliness, and the grace that shows up anyway. No performance. No pretense.</p>
+          <p class="lane-for">For ministers, ministry wives, and women in faith leadership roles</p>
+          <a href="#" class="lane-link">Read these posts →</a>
+        </div>
+      </div>
+      <!-- Lane 2 -->
+      <div class="lane-card lane-2" id="still-waters">
+        <div class="lane-top">
+          <div class="lane-badge">For the Everyday Woman</div>
+          <div class="lane-name">Still<br>Waters</div>
+          <div class="lane-ref">Psalm 23:2 · "beside the still waters"</div>
+        </div>
+        <div class="lane-body">
+          <p class="lane-desc">Faith for the ordinary Tuesday. Devotionals, reflections, and real talk for women navigating belief in everyday life — no insider language required.</p>
+          <p class="lane-for">For any woman walking in faith, wherever she is in the journey</p>
+          <a href="#" class="lane-link">Read these posts →</a>
+        </div>
+      </div>
+      <!-- Lane 3 -->
+      <div class="lane-card lane-3" id="table-prepared">
+        <div class="lane-top">
+          <div class="lane-badge">Black &amp; Brown Women of Faith</div>
+          <div class="lane-name">A Table<br>Prepared</div>
+          <div class="lane-ref">Psalm 23:5 · "in the presence of mine enemies"</div>
+        </div>
+        <div class="lane-body">
+          <p class="lane-desc">For Black and Brown women navigating faith in predominantly white spaces. Your experience is real. Your belonging is certain. This table has your name on it.</p>
+          <p class="lane-for">A community within the community — never a wall around it</p>
+          <a href="#table-prepared-full" class="lane-link">Join A Table Prepared →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT MODEL -->
+<section class="content-model">
+  <div class="model-inner">
+    <div class="eyebrow">How the content works</div>
+    <p>One seed. Three harvests. Every week.</p>
+    <div class="tri-row">
+      <div class="tri-card t1">
+        <div class="eyebrow">The Shepherd's Table</div>
+        <div class="tri-card-name">The Leader's Lens</div>
+        <div class="tri-card-sub">Ministry voice</div>
+      </div>
+      <div class="tri-arrow">→</div>
+      <div class="tri-card t2">
+        <div class="eyebrow">Still Waters</div>
+        <div class="tri-card-name">The Everyday Voice</div>
+        <div class="tri-card-sub">Lay woman's language</div>
+      </div>
+      <div class="tri-arrow">→</div>
+      <div class="tri-card t3">
+        <div class="eyebrow">A Table Prepared</div>
+        <div class="tri-card-name">The Cultural Lens</div>
+        <div class="tri-card-sub">Contextual voice</div>
+      </div>
+    </div>
+    <div class="model-note">One topic. Three perspectives. The same truth seen through three different lives — yours included.</div>
+  </div>
+</section>
+
+<!-- FEATURED POSTS -->
+<section class="featured">
+  <div class="container">
+    <div class="featured-header">
+      <div class="eyebrow">Recent Writing</div>
+      <a href="#">View all posts →</a>
+    </div>
+    <div class="posts-grid">
+      <div class="lead-post">
+        <div class="post-lane-tag l-sage">The Shepherd's Table</div>
+        <h3>The Year I Led a Church and Lost Myself — and What God Did Next</h3>
+        <p>There is a version of ministry leadership no one includes in the devotionals. It lives in the Tuesday afternoons when you have given everything and wonder if there is anything left to give. Twenty years in, I finally had to learn what rest really means when your job is everyone else's soul.</p>
+        <div class="post-meta">8 min read · Garden Living Series</div>
+        <a href="#" class="post-link">Read this post →</a>
+      </div>
+      <div class="side-stack">
+        <div class="mini-post">
+          <div class="post-lane-tag l-gold">Still Waters</div>
+          <h4>What If God Isn't Disappointed — He's Just Waiting With You?</h4>
+          <div class="post-meta">Devotional · 4 min read</div>
+        </div>
+        <div class="mini-post">
+          <div class="post-lane-tag l-mauve">A Table Prepared</div>
+          <h4>On Being the Only One in the Room — and Why I Stayed</h4>
+          <div class="post-meta">Personal essay · 6 min read</div>
+        </div>
+        <div class="mini-post">
+          <div class="post-lane-tag l-sage">The Shepherd's Table</div>
+          <h4>When the People You Lead Don't Know You're Barely Holding On</h4>
+          <div class="post-meta">Leadership · 5 min read</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A TABLE PREPARED SPOTLIGHT -->
+<section class="atp" id="table-prepared-full">
+  <div class="container">
+    <div class="atp-inner">
+      <div class="atp-left">
+        <div class="eyebrow">Community · A Table Prepared</div>
+        <h2>You were never<br>meant to sit alone.</h2>
+        <div class="atp-verse">"Thou preparest a table before me in the presence of mine enemies." — Psalm 23:5</div>
+        <p class="atp-desc">A Table Prepared is a community first — and then a blog, and then a movement. For Black and Brown women of faith who know what it costs to navigate spaces not originally built with them in mind. God set this table long before you arrived. It has always had your name on it.</p>
+        <a href="#community" class="atp-cta">Join A Table Prepared →</a>
+      </div>
+      <div class="atp-cards">
+        <div class="atp-card">
+          <div class="atp-card-tag">Community Circles</div>
+          <p>Monthly conversations around the experiences only we can name</p>
+        </div>
+        <div class="atp-card">
+          <div class="atp-card-tag">The Reading Table</div>
+          <p>Faith formation books read through a Black and Brown lens</p>
+        </div>
+        <div class="atp-card">
+          <div class="atp-card-tag">Sisterhood Letters</div>
+          <p>A private newsletter that says what we cannot say everywhere</p>
+        </div>
+        <div class="atp-card">
+          <div class="atp-card-tag">Coming Soon · Retreats &amp; Workshops</div>
+          <p>Spaces built for you, by you, on purpose and in community</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEVOTIONAL -->
+<section class="devotional" id="devotional">
+  <div class="container">
+    <div class="dev-inner">
+      <div>
+        <div class="eyebrow dev-label">Daily Devotional</div>
+        <div class="dev-title">Lie Down in<br>Green Pastures</div>
+        <div class="dev-ref">Psalm 23:2 · Garden Living Series</div>
+      </div>
+      <div class="dev-quote">
+        "Rest is not the reward for finishing. It is the posture God invites us into first — before the work, before the worthy, before we have proven anything. He says: lie down."
+      </div>
+      <div class="dev-action">
+        <a href="#" class="dev-btn">Read today's devotional →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-strip" id="about">
+  <div class="container">
+    <div class="about-inner">
+      <img src="sam.jpg" alt="The Author" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top center;border-radius:3px;display:block;">
+      <div class="about-text">
+        <div class="eyebrow">The Author</div>
+        <h2>Twenty years in.<br>Still learning. Still growing.</h2>
+        <p>I have been a woman in ministry for over two decades — and this space is everything I wished existed when I started. The honest conversations about leadership, belonging, faith, and what it means to be a woman who follows God in the middle of a real, complicated life.</p>
+        <p>Psalm 23 Woman is rooted in a theology I call <em>Garden Living</em> — the belief that God's original design for us was wholeness, presence, and rest. This site is an invitation back to that.</p>
+        <a href="#" class="about-link">Read the full story →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="community" id="community">
+  <div class="container">
+    <div class="eyebrow">What's Coming</div>
+    <h2>This is just the beginning.</h2>
+    <p class="community-sub">Workshops, reading groups, retreats, books, curricula, and merchandise — all rooted in Garden Living. Get in now and help shape what this community becomes.</p>
+    <div class="init-grid">
+      <div class="init-card">
+        <div class="init-icon">✉</div>
+        <div class="init-label">Newsletter</div>
+      </div>
+      <div class="init-card">
+        <div class="init-icon">⛺</div>
+        <div class="init-label">Retreats</div>
+      </div>
+      <div class="init-card">
+        <div class="init-icon">📖</div>
+        <div class="init-label">Curricula</div>
+      </div>
+      <div class="init-card">
+        <div class="init-icon">👑</div>
+        <div class="init-label">Shop</div>
+      </div>
+    </div>
+    <form class="email-form" onsubmit="handleSignup(event)">
+      <input type="email" placeholder="Your email address" required>
+      <button type="submit">Join the Community</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <div class="footer-brand-name">
+          <svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 17L4 8L8.5 13L12 4L15.5 13L20 8L22 17H2Z"/><rect x="2" y="17.5" width="20" height="2" rx="1"/></svg>
+          Psalm 23 Woman
+        </div>
+        <div class="footer-brand-sub">Garden Living · psalm23woman.com</div>
+        <p class="footer-brand-desc">A space for women rooted in faith — wherever you lead, wherever you live, wherever you belong.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Read</h4>
+        <a href="#">The Shepherd's Table</a>
+        <a href="#">Still Waters</a>
+        <a href="#">A Table Prepared</a>
+        <a href="#">Devotionals</a>
+      </div>
+      <div class="footer-col">
+        <h4>Community</h4>
+        <a href="#">Join the Newsletter</a>
+        <a href="#">A Table Prepared Circle</a>
+        <a href="#">Upcoming Retreats</a>
+        <a href="#">Shop</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="#">About</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Psalm 23 Woman · psalm23woman.com · All rights reserved.</p>
+      <div class="footer-verse">Faith · Purpose · Plan</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobile-menu').classList.toggle('open');
+}
+function handleSignup(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'You\'re in! ✓';
+  btn.style.background = '#4A7C5F';
+  setTimeout(() => { btn.textContent = 'Join the Community'; btn.style.background = ''; }, 3000);
+}
+// Close menu on outside click
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.site-nav')) {
+    document.getElementById('mobile-menu').classList.remove('open');
+  }
+});
+</script>
+</body>
+</html>
